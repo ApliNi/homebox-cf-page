@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Temporary files and migration artifacts
+.pi-temp/
+*.log
+
+# Environment / local configs
+.env.local
+.env.*.local
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Note: dist/ is intentionally NOT ignored so it can be deployed directly to Cloudflare Pages
